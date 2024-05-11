@@ -100,20 +100,20 @@ export default function NewHero() {
               flexDir={{ base: "column", md: "row" }}
               rounded="full"
             >
-              {/* <Button
+              <Button
                 transition="all 0.3s ease-in-out"
                 _hover={{ transform: "scale(1.1)" }}
                 rounded="2xl"
               >
-                Buy on Kyberswap
-              </Button> */}
-              {/* <Button
+                Buy on Stonfi
+              </Button>
+               <Button
                 transition="all 0.3s ease-in-out"
                 _hover={{ transform: "scale(1.1)" }}
                 rounded="2xl"
               >
-                Buy on OKX
-              </Button> */}
+                Buy on Tonkeeper
+              </Button>
               <Button
                 transition="all 0.3s ease-in-out"
                 _hover={{ transform: "scale(1.1)" }}
