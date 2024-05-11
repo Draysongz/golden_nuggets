@@ -87,15 +87,8 @@ export default function ProductIntro() {
               the TON blockchain as a Fan tribute. He has become blue mascot of
               the blue chain, TON.
             </Text>
-            <AboutVideo />
-            <Text
-              lineHeight="1.375"
-              fontWeight={700}
-              maxW={{ base: "100%", md: "auto" }}
-              fontSize="2xl"
-            >
-              Video Courtesy: Feels Good Man
-            </Text>
+            
+           
           </Stack>
         </Stack>
         <Flex

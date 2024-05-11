@@ -15,7 +15,7 @@ const Footer = () => {
             pointerEvents="none"
             textShadow="-2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000"
           >
-            BASED BRETT
+            BRETT ON TON
           </Text>
         </Flex>
         <Flex justifyContent="center" w="full" py={4}>
