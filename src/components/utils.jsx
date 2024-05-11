@@ -77,11 +77,11 @@ const Utilities = () => {
                 Growing Ecosystem:
               </Heading>
               <Text>
-                The Base Chain's ecosystem is rapidly expanding, with numerous
+                The Ton Chain's ecosystem is rapidly expanding, with numerous
                 projects and applications being built on the platform. This
                 growing ecosystem provides a strong foundation for BRETT's
                 success, as it allows the platform to leverage the resources and
-                expertise of other projects in the space. As the Base Chain
+                expertise of other projects in the space. As the Ton Chain
                 continues to grow, so too will the potential for BRETT to thrive
                 and expand its offerings.
               </Text>
@@ -110,7 +110,7 @@ const Utilities = () => {
                 Strong Community Support:
               </Heading>
               <Text>
-                The Base Chain and BRETT have garnered significant support from
+                The Ton Chain and BRETT have garnered significant support from
                 the crypto community, with many prominent figures expressing
                 their bullish outlook on the project. This strong community
                 backing provides a solid foundation for the project's growth and

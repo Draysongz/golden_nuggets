@@ -47,9 +47,8 @@ function App() {
         />
         <MyNav />
         <NewHero />
-        <NuggetsCard />
         <ProductIntro />
-        <Tokenomics />
+        {/* <Tokenomics /> */}
         {/* <BrettSection /> */}
         <Utilities />
         <Contact />

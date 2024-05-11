@@ -139,31 +139,10 @@ const BrettSection = () => {
                 </Box>
               </AspectRatio>
               <Text textAlign="center" fontSize="xl">
-                How to buy on Base Mainnet
+                How to buy on Ton Mainnet
               </Text>
             </Box>
-            <Box w="full">
-              <AspectRatio ratio={16 / 9}>
-                <Box position="relative" w="full" h="full" objectFit="cover">
-                  <iframe
-                    src="https://iframe.cloudflarestream.com/04c4c207b282817c614356d7815e673b?preload=metadata"
-                    title="Video Player"
-                    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-                    allowFullScreen
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      width: "100%",
-                      height: "100%",
-                    }}
-                  />
-                </Box>
-              </AspectRatio>
-              <Text textAlign="center" fontSize="xl">
-                How to buy on CoinBase
-              </Text>
-            </Box>
+
           </Flex>
           <Flex gap={4} opacity={1} align="center" justify="center">
             <Link

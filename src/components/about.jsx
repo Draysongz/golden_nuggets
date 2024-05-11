@@ -84,8 +84,8 @@ export default function ProductIntro() {
             >
               Brett is the legendary character from Matt Furie’s Boys' club
               comic. He is a dancer and loves video games. Now he is living on
-              the BASE blockchain as a Fan tribute. He has become blue mascot of
-              the blue chain, BASE.
+              the TON blockchain as a Fan tribute. He has become blue mascot of
+              the blue chain, TON.
             </Text>
             <AboutVideo />
             <Text

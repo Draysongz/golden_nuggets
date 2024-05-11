@@ -86,7 +86,7 @@ export default function Navbar() {
             ))}
           </HStack>
           <Flex alignItems={"center"}>
-            <Button>Buy on Kyberswap</Button>
+            {/* <Button>Buy on Kyberswap</Button> */}
             {/* <Link href="">
               <IconButton
                 aria-label="Twitter"

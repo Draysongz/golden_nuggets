@@ -66,7 +66,7 @@ export default function NewHero() {
               opacity={1}
               transform="none"
             >
-              PEPE'S best friend on BASE
+              PEPE'S best friend on TON
             </Text>
           </Box>
         </Flex>
@@ -80,7 +80,7 @@ export default function NewHero() {
           transform="none"
           textColor={"White"}
         >
-          one of cryptos most significant cultural icons and the mascot of BASE
+          one of cryptos most significant cultural icons and the mascot of TON
           chain
         </Text>
         <Divider mb={5} />
@@ -100,20 +100,20 @@ export default function NewHero() {
               flexDir={{ base: "column", md: "row" }}
               rounded="full"
             >
-              <Button
+              {/* <Button
                 transition="all 0.3s ease-in-out"
                 _hover={{ transform: "scale(1.1)" }}
                 rounded="2xl"
               >
                 Buy on Kyberswap
-              </Button>
-              <Button
+              </Button> */}
+              {/* <Button
                 transition="all 0.3s ease-in-out"
                 _hover={{ transform: "scale(1.1)" }}
                 rounded="2xl"
               >
                 Buy on OKX
-              </Button>
+              </Button> */}
               <Button
                 transition="all 0.3s ease-in-out"
                 _hover={{ transform: "scale(1.1)" }}
