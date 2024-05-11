@@ -119,7 +119,7 @@ export default function NewHero() {
                 _hover={{ transform: "scale(1.1)" }}
                 rounded="2xl"
               >
-                Dextools Chart
+                Dexton
               </Button>
             </ButtonGroup>
           </Flex>
