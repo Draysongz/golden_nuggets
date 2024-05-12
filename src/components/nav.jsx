@@ -23,8 +23,8 @@ const Links = [
   { name: "ABOUT", path: "#" },
   { name: "TOKENOMICS", path: "#" },
   { name: "CONTACT", path: "#" },
-  { name: "TELEGRAM", path: "https://t.me/Gedagedigedagedago_Joe" },
-  { name: "TWITTER", path: "https://twitter.com/Joe_gedagediged" },
+  { name: "TELEGRAM", path: "https://t.me/BrettOnTonOfficial" },
+  { name: "TWITTER", path: "https://twitter.com/Brettontonchain" },
 ];
 
 export default function Navbar() {
@@ -132,7 +132,7 @@ export default function Navbar() {
               </Link>
             ))}
             <HStack justifyContent="center">
-              <Link href="https://twitter.com/Joe_gedagediged">
+              <Link href="https://twitter.com/Brettontonchain">
                 <IconButton
                   aria-label="Twitter"
                   icon={<FaTwitter />}
@@ -143,7 +143,7 @@ export default function Navbar() {
                 />
               </Link>
 
-              <Link href="https://t.me/Gedagedigedagedago_Joe">
+              <Link href="https://t.me/BrettOnTonOfficial">
                 <IconButton
                   aria-label="Telegram"
                   icon={<FaTelegram />}

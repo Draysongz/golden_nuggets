@@ -8,11 +8,15 @@ import {
   Image,
   Stack,
   Text,
+  Link,
 } from "@chakra-ui/react";
 import mainNugs from "../assets/mainNuggets.png";
 import bbrett from "../assets/1715323925464.gif";
 
 export default function NewHero() {
+  const handleCopy = (value)=>{
+    navigator.clipboard.writeText(value)
+  }
   return (
     <>
       <Stack
@@ -91,9 +95,13 @@ export default function NewHero() {
             color="white"
             _hover={{ transform: "scale(1.1)" }}
             rounded="2xl"
+            value={'EQCvS3PxE6ZJNplq5xWt2_lm6Lio9JCJBup6PWky8FVMnEHY'}
+            onClick={(e)=> handleCopy(e.target.value)}
           >
-            0x532f27101965dd16442E59d40670FaF5eBB142E4
+            EQCvS3PxE6ZJNplq5xWt2_lm6Lio9JCJBup6PWky8FVMnEHY
           </Button>
+
+          <Text  color="white" >Supply: 1,000,0000,000</Text>
           <Flex>
             <ButtonGroup
               gap={5}
@@ -105,7 +113,9 @@ export default function NewHero() {
                 _hover={{ transform: "scale(1.1)" }}
                 rounded="2xl"
               >
+                <Link href="https://app.ston.fi/swap?chartVisible=false&ft=TON&tt=EQCvS3PxE6ZJNplq5xWt2_lm6Lio9JCJBup6PWky8FVMnEHY" isExternal>
                 Buy on Stonfi
+                </Link>
               </Button>
                <Button
                 transition="all 0.3s ease-in-out"

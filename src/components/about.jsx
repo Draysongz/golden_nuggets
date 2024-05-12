@@ -108,7 +108,9 @@ export default function ProductIntro() {
             _hover={{ transform: "scale(1.1)" }}
             rightIcon={<FaTelegram />}
           >
+             <Link href="https://t.me/BrettOnTonOfficial" isExternal>
             TELEGRAM
+            </Link>
           </Button>
           <Button
             color="#0244a5b3"
@@ -120,7 +122,9 @@ export default function ProductIntro() {
             _hover={{ transform: "scale(1.1)" }}
             rightIcon={<FaTwitter />}
           >
+            <Link href="https://twitter.com/Brettontonchain" isExternal>
             TWITTER
+            </Link>
           </Button>
         </Flex>
       </Stack>

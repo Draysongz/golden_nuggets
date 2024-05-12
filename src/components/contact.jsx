@@ -71,10 +71,10 @@ const Contact = () => {
             textAlign={{ base: "center", lg: "left" }}
           >
             <Flex gap={4} fontSize="6xl" color="white">
-              <Link href="https://twitter.com/BasedBrett" isExternal>
+              <Link href="https://twitter.com/Brettontonchain" isExternal>
                 <FaTwitter className="hover:text-gray-400 cursor-pointer transition-all ease-in-out duration-300" />
               </Link>
-              <Link href="https://t.me/basedbrett" isExternal>
+              <Link href="https://t.me/BrettOnTonOfficial" isExternal>
                 <FaTelegram className="hover:text-gray-400 cursor-pointer transition-all ease-in-out duration-300" />
               </Link>
             </Flex>
