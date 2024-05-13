@@ -122,14 +122,20 @@ export default function NewHero() {
                 _hover={{ transform: "scale(1.1)" }}
                 rounded="2xl"
               >
-                Buy on Tonkeeper
+                <Link href='https://www.geckoterminal.com/ton/pools/EQDP9NpmY87q8Fn9RM75gQbH-nZVKmF21p62E1E7gmBRQ3Xi' isExternal>
+
+            
+                Geckoterminal
+                </Link>
               </Button>
               <Button
                 transition="all 0.3s ease-in-out"
                 _hover={{ transform: "scale(1.1)" }}
                 rounded="2xl"
               >
+                <Link href='https://app.thedexton.com/pair-explorer/EQDP9NpmY87q8Fn9RM75gQbH-nZVKmF21p62E1E7gmBRQ3Xi' isExternal>
                 Dexton
+                </Link>
               </Button>
             </ButtonGroup>
           </Flex>
